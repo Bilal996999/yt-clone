@@ -66,6 +66,16 @@ a {
   transition: all 0.3s ease;
 }
 
+.channel__detail {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.channel__detail .MuiBox-root {
+  margin-bottom: -100px;
+}
+
 @media screen and (max-width: 900px) {
   .category-btn{
     margin: 10px;
